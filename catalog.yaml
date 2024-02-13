@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: jump-app
   description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+    Jump App Application
   links:
     - title: Website
       url: http://backstage.io
@@ -16,6 +16,6 @@ metadata:
   annotations:
     argocd/app-name: jump-app
 spec:
-  type: library
-  owner: group:open-source
+  type: service
   lifecycle: production
+  owner: group:open-source
