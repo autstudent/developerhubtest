@@ -18,4 +18,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: group:open-source
+  owner: user:default/guest
