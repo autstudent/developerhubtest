@@ -1,0 +1,20 @@
+---
+openapi: 3.0.3
+info:
+  title: Jump App Golang Backend API
+  version: 1.0-SNAPSHOT
+servers:
+- url: https://back-golang-jump-app.apps.acidonpe101.sandbox470.opentlc.com
+  description: Auto generated value
+paths:
+  /:
+    get:
+      tags:
+      - Jump App Golang
+      responses:
+        "200":
+          description: OK
+          content:
+            text/plain:
+              schema:
+                type: string
